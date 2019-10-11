@@ -1,5 +1,4 @@
-### `npm start`
-Installation du projet Bookmarks
+### Installation du projet Bookmarks
 
 ### Etape 1
 Installer NodeJS :
