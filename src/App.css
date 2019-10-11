@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+.container{
+    padding: 50px;
+}
+
+/** Style du tableau des bookmarks **/
+
+.bookmarks-list table{
+    width: 100%;
+    min-height: 350px;
+}
+.bookmarks-list table button{
+  margin-right: 10px;
+}
+.bookmarks-list table th, .bookmarks-list table td{
+    border-bottom: 1px solid #eee;
+    border-spacing: 0;
+    text-align: center;
+    height: 50px;
+}
+.bookmarks-list table th {
+    text-transform: uppercase;
+}
+/** Style des mots clés **/
+
+.keywords-container{
+    padding: 15px 30px;
+}
+
+.keywords-container div.keywords-item{
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 15px;
+    position: relative;
+}
+
+.keywords-container div a{
+    position: absolute;
+    top: -6px;
+    left: 2px;
+    cursor: pointer;
+}
+
+/** Style des popups **/
+
+.popup-content{
+  padding: 15px !important;
+  border-radius: 15px;
+}
+
+.popup-content .close{
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  cursor: pointer;
+}
+
+/** Style de la pagination **/
+
+nav.pagination{
+  margin-top: 5px;
+    text-align: center;
+}
+
+nav.pagination button{
+    margin-right: 10px;
+    background: #bcbcbc;
+}
+
+nav.pagination button:hover{
+    background: #5091cca3;
+}
+
+nav.pagination button.active{
+    margin-right: 10px;
+    background: #df2626b0;
+}
+
+
+/** Style des buttons & inputs **/
+input[type="submit"], button {
+    background: #5091cca3;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover, button:hover{
+  background: #727272b0;
+}
+
+.btn-suppr{
+  background: #df2626b0;
+}
+input[type='text'],input[type='url']{
+      padding: 8px;
+}
